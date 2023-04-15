@@ -1,0 +1,32 @@
+@import "portada.css";
+@import "footer.css";
+
+
+.rowhome{
+    background-color: whitesmoke;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    background-image: url(../img/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px; 
+}
+.titulo{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    }
+.descripciontitulo{
+    width: 30%;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    }
+.imgprincipal{
+    width: 65%;
+    margin-right: 30px;
+    border-radius: 45%;
+    padding: 20px;
+    float: right;
+    }

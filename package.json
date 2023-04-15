@@ -1,0 +1,26 @@
+{
+  "homepage":"https://kevod1997.github.io/TrabajoFinalUTN",
+  "name": "appfotografia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch scss:css",
+    "start": "npm-run-all --parallel sass",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.61.0"
+  }
+}

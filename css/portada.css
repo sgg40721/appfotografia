@@ -1,0 +1,25 @@
+.prtd{
+    text-align: center;
+    background-image: url(../img/foto\ de\ bienvenida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph1{
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+.pp{
+    margin: 0 0 10px;
+
+}
+.portada{
+    background-color: rgba( 0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
